@@ -309,13 +309,15 @@
     </script>
 
     {{-- vue js --}}
-<script src="{{asset('vue/vue.global.js')}}"></script>
-<script src="{{asset('vue/main.js')}}"></script>
-<script>
-    const miApp = Vue.createApp(app)
+    {{-- <script src="{{asset('vue/vue.global.js')}}"></script>
+    <script src="{{asset('vue/vue-route/vue-router.global.js')}}"></script>
+    <script src="{{asset('vue/main.js')}}"></script>
+    <script>
+        const miApp = Vue.createApp(app)
     miApp.mount("#appVue")
-</script>
-<script src="{{asset('vue/vue-route/vue-router.global.js')}}"></script>
+    </script> --}}
+
+
 
     <script src="{{asset('app/publico/js/lib/jquery/jquery.min.js')}}">
     </script>
